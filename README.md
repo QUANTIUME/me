@@ -3,10 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Important Question 💖</title>
+  <title>For l3lja 💖</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
@@ -26,6 +25,10 @@
 
     h1 {
       font-size: 2.5rem;
+      color: #ff4d88;
+    }
+
+    h2 {
       color: #ff4d88;
     }
 
@@ -72,7 +75,6 @@
       color: #555;
     }
 
-    /* Floating hearts */
     .heart {
       position: fixed;
       bottom: -20px;
@@ -96,23 +98,33 @@
 <body>
 
   <div class="container">
-    <h1>Okay… this is me being brave 😳💖</h1>
+    <h1>Hey l3lja… this is me being brave 😳💖</h1>
     <p><em>Please appreciate the effort, I made a whole website and everything 😂</em></p>
 
     <div class="card">
       <p>
-        So here’s the thing…<br>
-        I like you.<br><br>
-        And instead of overthinking it for 3–5 business years,
-        I decided to do this ✨<br><br>
-        You’re fun, you make me smile,
-        and honestly… I’d love to hang out with you 🌸
+        So here’s the honest part…<br><br>
+
+        I didn’t just like you randomly.<br>
+        I started liking you more — and deeper —  
+        because of how kind you are 🌸<br><br>
+
+        The way you treat people,  
+        even strangers who don’t expect anything from you,  
+        says a lot about who you are ✨<br><br>
+
+        You make things feel lighter just by being you,  
+        and I genuinely enjoy every moment we talk 💖<br><br>
+
+        So instead of overthinking this for  
+        3–5 business years…  
+        I decided to be honest 😌
       </p>
     </div>
 
     <div class="card">
       <h2>Would you like to go out with me sometime? 💌</h2>
-      <p>(Yes, this is the official question 😌)</p>
+      <p>(Yes, this is the official question 😄)</p>
 
       <div class="buttons">
         <button onclick="celebrate()">YES 😍</button>
@@ -152,7 +164,6 @@
       }, 6000);
     }
 
-    // background hearts
     setInterval(createHeart, 500);
   </script>
 
